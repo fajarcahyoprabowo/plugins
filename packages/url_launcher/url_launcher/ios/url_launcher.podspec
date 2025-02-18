@@ -19,5 +19,7 @@ A Flutter plugin for making the underlying platform (Android or iOS) launch a UR
   
   s.platform = :ios, '8.0'
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64' }
+
+  s.resource_bundles = {'url_launcher_ios_privacy' => ['Resources/PrivacyInfo.xcprivacy']}
 end
 
