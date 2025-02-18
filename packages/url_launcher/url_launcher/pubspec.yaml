@@ -43,13 +43,6 @@ dependencies:
   url_launcher_web: ^2.0.0
   url_launcher_windows: ">=2.0.0 <4.0.0"
 
-dependency_overrides:
-  url_launcher_ios: 
-    git:
-      url: https://github.com/tr8team/plugins-v2.git
-      ref: fix/fajar/ios-manifest
-      path: packages/url_launcher/url_launcher_ios
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
